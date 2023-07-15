@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/underc0delabs/Playc0de',
         },
         blog: {
           showReadingTime: true,
@@ -59,8 +59,9 @@ const config = {
       navbar: {
         title: 'Playc0de',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Playc0de Logo',
+          src: 'img/isologo_light.png',
+          srcDark: 'img/isologo_dark.png'
         },
         items: [
           {
@@ -69,7 +70,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          // { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/underc0delabs/Playc0de',
             label: 'GitHub',
@@ -121,6 +122,9 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      colorMode: {
+        respectPrefersColorScheme: true,
       },
     }),
 };

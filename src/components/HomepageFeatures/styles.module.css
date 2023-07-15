@@ -5,7 +5,12 @@
   width: 100%;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.featureImg {
+  max-height: 250px;
+}
+
+.feature {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 80px calc(var(--ifm-spacing-horizontal) * -1);
 }
