@@ -124,7 +124,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       colorMode: {
-        respectPrefersColorScheme: true,
+        defaultMode: "dark",
       },
     }),
 };
